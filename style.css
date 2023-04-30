@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #388E3C;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    text-shadow: 2px 2px #388E3C;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #1C2331;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: #333;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px #1C2331;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Image styles */
+  section img {
+   
+    
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact information styles */
+  section p {
+    margin: 5px 0;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 1px 1px #1C2331;
+  }
+  
